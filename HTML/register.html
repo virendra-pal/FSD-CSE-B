@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <h1>Register here</h1>
+    <form method="post" action="/register.js">
+        <!-- Name:<input type="text" placeholder="Enter the user name"/><br>
+        Mobile No:<input type="number" placeholder="Enter the user mobile"/><br>
+        Email:<input type="email" placeholder="Enter the user email"/><br>
+        <input type="submit" value="Register"/>
+        <input type="reset" value="Reset"> -->
+        <label for="name">Name</label>
+        <input type="text" name="uname" placeholder="Enter the user name"/><br>
+        <label for="mobile">Mobile No</label>
+        <input type="number" name="umobile" placeholder="Enter the user mobile"/><br>
+        <label for="email">Email</label>
+        <input type="email" name="uemail" placeholder="Enter the user email"/><br>
+        <label for="dob">DOB</label>
+        <input type="date" name="dob" placeholder="Enter the date of birth"/><br>
+        <label for="gender">Gender</label>
+        <input type="radio" value="M" name="gender" checked/> Male
+        <input type="radio" value="F" name="gender"/> Female
+        <br><label for="branch">Branch</label>
+        <select name="branch" id="">
+            <option value="CSE">CSE</option>
+            <option value="DS">CSE-DS</option>
+            <option value="AIML">CSE-AIML</option>
+            <option value="ECE">ECE</option>
+            <option value="IT">IT</option>
+        </select><br><label for="sem">Semester</label>
+        <select name="sem" id="">
+            <option value="1">I</option>
+            <option value="2">II</option>
+            <option value="3">III</option>
+            <option value="4">IV</option>
+            <option value="5">V</option>
+            <option value="6">VI</option>
+        </select>
+        <br><label for="address">Address</label>
+        <textarea name="address" rows="5" cols="50">Enter Current Address</textarea>
+        <label for="certificate">Upload Class 12th Certificate</label>
+        <br><input type="file" name="certificate"/>
+        <br><input type="submit" value="Register">
+        <input type="reset" value="Reset">
+        <!-- <input type="submit" value="Register"/> -->
+    </form>
+</body>
+</html>
