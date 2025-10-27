@@ -1,0 +1,17 @@
+{
+  "name": "book-parcel-app",
+  "version": "1.0.0",
+  "description": "my book app using parcel",
+  "license": "ISC",
+  "author": "Virendra Pal",
+  "type": "module",
+  "scripts": {
+    "start": "parcel index.html --port 3000",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
